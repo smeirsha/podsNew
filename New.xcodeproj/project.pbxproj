@@ -242,7 +242,7 @@
 				TargetAttributes = {
 					3738D5EF1F948F9C004E6A23 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3738D6031F948F9C004E6A23 = {
 						CreatedOnToolsVersion = 9.0;
@@ -623,12 +623,14 @@
 			baseConfigurationReference = 9421F8021BAF4162018493B4 /* Pods-New.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = New/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.ios.New;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "031871e2-dfc4-4525-bb42-edf50d99d5f9";
+				PROVISIONING_PROFILE_SPECIFIER = "Bowstreet Developer";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -639,12 +641,14 @@
 			baseConfigurationReference = 57A6A4C67106F853B349DEF8 /* Pods-New.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 29UTQE9JS9;
 				INFOPLIST_FILE = New/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.bowstreet.ios.New;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "031871e2-dfc4-4525-bb42-edf50d99d5f9";
+				PROVISIONING_PROFILE_SPECIFIER = "Bowstreet Developer";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
